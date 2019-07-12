@@ -34,13 +34,29 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+If I were to describe semantic HTML to the next cohort of students, I would say that semantic html provides meaning to your web page. It lets the browser understand the meaning of your content.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+Two big difference between display: block and display: inline is that display :inline creates a inline level element that will display the element on the same line of the current block, only taking up the space it needs, and it will also allow other elements to be aligned alongside it.
+Display: block will create a block level element. Display : block will take up the whole row and will not allow other elements to be displayed beside it.
+Display block elements, like headings and paragraph tags, start from a new line.
+Display: inline elements, like span, do not start from a new line..
 
 3. What are the 4 areas of the box model?
 
+
+The 4 areas of the box model are margin area, border area, padding area, and content area.
+The content area is the inner most part of the box, it holds all the “content” of the box, such as the text and images.
+The padding area is the inside space between the content area and the border.
+The border area surrounds the padding area, it is the actual border of a box. You could see this if you were to add border lines around the box.
+The margin area is the outer most area, it extends from the border area to leave spacing between the element’s border and other elements.
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+
+Align :items : center, will center items in the cross-axis.
 5. Explain why git is valuable to a team of developers.
+Git is valuable to a team of developers because it lets multiple people work on the same project, being able to submit their own separate code to a single project. It allows developers to save code during the coding project.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
