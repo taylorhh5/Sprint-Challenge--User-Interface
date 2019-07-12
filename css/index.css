@@ -70,13 +70,69 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+header{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+	align-items: center;
+}
+header nav{
+	display: flex;
+}
+header nav a{
+    
+	
+    color: black;
+	text-decoration: none;
+    margin-right: 40px;
+    margin-top: 25px;
+    margin-left:33px;
+    
+    
+}
+
+.jumbo-header-img{
+	margin-top: 30px;
+}
+
+.abouth{
+    
+    margin-top:20px;
+    margin-left:15px;
+}
+
+
+
+.about-parent{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content:space-between;
+	
+}
+
+.about-box {
+	
+	width:48%;
+	padding: 20px;
+    margin-bottom: 40px;
+    border-bottom:1px dashed black;
+}
+
+.about-box button {
+	border: 2px solid black;
+	padding: 10px 40px;
+    border-radius: 8px;
+    margin-top:15px;
+    background: white;
+}
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    margin-top: 40px;s
+    border-bottom: 1px dashedblack;
 }
 
 .top-content .text-container {
@@ -88,30 +144,71 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    border-top:1px solid grey;
 }
 
 .middle-content h2 {
-    padding: 0 2%;
+    padding: 25px 2%;
     margin-bottom: 0;
+    border-top: 1px black dashed;
 }
 
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    
+    
 }
 
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.middle-content .boxes .box:nth-child(2) {
+	background: gold;
 
+}
+.middle-content .boxes .box:nth-child(3) {
+	background: cadetblue;
+
+}
+.middle-content .boxes .box:nth-child(4) {
+	background: coral;
+
+}
+.middle-content .boxes .box:nth-child(5) {
+	background: crimson;
+
+}
+
+.middle-content .boxes .box:nth-child(6) {
+	background: forestgreen;
+
+}
+
+.middle-content .boxes .box:nth-child(7) {
+	background: darkorchid;
+
+}
+.middle-content .boxes .box:nth-child(8) {
+	background: hotpink;
+
+}
+.middle-content .boxes .box:nth-child(9) {
+	background: indigo;
+
+}
+.middle-content .boxes .box:nth-child(10) {
+	background: dodgerblue;
+
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +240,10 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.work{
+    
+    margin-bottom:30px;
+    margin-left:20px;
 }
